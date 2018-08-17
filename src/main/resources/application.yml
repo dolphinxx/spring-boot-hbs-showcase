@@ -1,0 +1,14 @@
+spring:
+  mvc:
+    view:
+      prefix: "file:D:\\workspace\\webpack-hbs-boiplate\\dist\\views"
+      suffix: ".hbs.html"
+    static-path-pattern: "/static/**"
+  resources:
+    static-locations:
+    - "file:/workspace/webpack-hbs-boiplate/dist/static/"
+logging:
+  level:
+    ROOT: DEBUG
+server:
+  port: 8081
